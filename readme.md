@@ -1,8 +1,8 @@
-# open jupyter
+# jupyter
  docker run -it -d -v /mnt/c/Users/zk/voik:/home --gpus all -p 8888:8888 -p 8000:8000 tf-fastapi /bin/bash
  jupyter notebook --ip=0.0.0.0 --allow-root
 
-# open fastapi
+# fastapi
  docker exec -it (container id) bash
  cd /home/server | python main1.py
 
