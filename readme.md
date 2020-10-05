@@ -1,5 +1,5 @@
 # jupyter
- docker run -it -d -v /mnt/c/Users/zk/voik:/home --gpus all -p 8888:8888 -p 8000:8000 tf-fastapi /bin/bash
+ docker run -it -v ~/(user name)/fastapi-ml-pipeline:/home --gpus all -p 8888:8888 -p 8000:8000 tf-fastapi /bin/bash
  jupyter notebook --ip=0.0.0.0 --allow-root
 
 # fastapi
