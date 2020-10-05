@@ -23,6 +23,7 @@
     /etc/proxychains.conf or /etc/proxychains4.conf
  ## priroxy
     /etc/privoxy/config
+    sudo service privoxy start
  ## env
     cat /etc/resolv.conf
     export https_proxy='socks5://nameserver:port'
